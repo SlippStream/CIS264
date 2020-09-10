@@ -1,0 +1,75 @@
+1. A data type built into a language like integer or boolean.
+3. Structures can hold data of different types, whereas arrays can only hold data of one type.
+5A. FullName info;
+5B. info = {"Nicholas", "Albert", "Zimanski"};
+5C. cout << info.firstName << ", " << info.middleName << ", " << info.lastName;
+7A. Canton
+7B. Haywood
+7C. 9478.0
+7D. 0.0
+9. Unions' members occupy the same space in memory.
+11. 0 1 2
+13. declared
+15. members
+17. structure name
+19. Car car = {"Ford", "Mustang", 1968, 20000};
+21. Car cars[35];
+cars[0] = {"Ford","Taurus",1997,21000};
+cars[1] = {"Honda","Accord",1992,11000};
+cars[2] = {"Lamborghini","Countach",1997,200000};
+23. struct TempScale {
+    double fahrenheit;
+    dobule centigrade;
+}
+struct Reading {
+    int windSpeed;
+    double humidity;
+    TempScale temperature;
+}
+25. void showReading(Reading s) {
+    cout << "Wind Speed: " << s.windSpeed << endl;
+    cout << "Humidity: " << s.humidity << endl;
+    cout << "Temperature: " << s.temperature.fahrenheit << "F - " << s.temperature.centigrade << "C\n";
+}
+27. Reading getReading() {
+    Reading r = {};
+    cout << "Please enter the wind speed: ";
+    cin >> r.windSpeed;
+    cout << "Please enter the humidity: ";
+    cin >> r.humidity;
+    cout << "Please enter the temperature in fahrenheit: ";
+    cin >> r.temperature.fahrenheit;
+    cout << "Please enter the temperature in celsius: ";
+    cin >> r.temperature.centigrade;
+    return r;
+}
+29. rptr -> windSpeed = 50;
+31. union Items {
+    char alpha;
+    int num;
+    long bigNum;
+    float real;
+}
+33. num = 452;
+35. enum {
+    DOG,
+    CAT,
+    BIRD,
+    HAMSTER
+};
+37. T
+39. F
+41. F
+43. T
+45. T
+47. T
+49. T
+51. F
+53. T
+55. T
+57. Anonomyous Structures are not allowed.
+59. TwoVals does not inherently store data.
+61. Initialization lists should be in braces.
+63. a and b have not been initialized.
+65. TwoVals does not contain any data itself, and getVals() does not return a value.
+67. y is not initialized and x already exists.
