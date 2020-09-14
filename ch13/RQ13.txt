@@ -1,0 +1,50 @@
+1. A class is a data type template for holding data. An instance of a class is an instance of data that a class could hold.
+3. Public
+5. The houses, as each of them have certain characteristics such as doors, windows, etc.
+7. Yes, to prevent unwanted or illegal modification
+9. When unchecked modification could result in errors.
+11. A default constructor is one that takes no arguments, as such, there can be only one.
+13. Yes, when it is allocated.
+15. To hold and manipulate data.
+17. OOP and Precedural-oriented.
+19. OOP
+21. class
+23. Access Specifier
+25. Public
+27. ->
+29. Canine
+31. constructor
+33. Constructors
+35. default
+37. ~
+39. default
+41. Constructor, destructor
+43. class Circle {
+    private:
+        double radius;
+    public:
+        void setRadius(double r) {radius=r;}
+        double getRadius() {return radius;}
+        double getArea() {return radius * radius * 3.14159;}
+}
+45. public: Circle(double radius) {
+    this->radius = radius;
+}
+47. Circle circles[] = {Circle(12), Circle(7), Circle(9), Circle(14), Circle(8)};
+49. Veteranarian
+51. False
+53. False
+55. False
+57. True
+59. False
+61. True
+63. True
+65. True
+67. False
+69. True
+71. False
+73. The methods in Circle are stubs with no body.
+No colons are used after private and public in Circle.
+75. DumbBell has a semicolon before the class body.
+DumbBell(200) is not assigned to a variable.
+DumbBell has no constructor that takes an int value.
