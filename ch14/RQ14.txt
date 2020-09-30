@@ -1,0 +1,32 @@
+1. Instance variables are unique to each object, whereas static variables are shared.
+3. Outside class declaration.
+5. Because member functions would get the private variables.
+7. When a new object is initialized with the same data as another object.
+9. When an object contains a dynamically allocated pointer variable.
+11. An unwritten copy constructor that uses memberwise assignment.
+13. overloaded operator function.
+15. postfix operators have a dummy parameter.
+17. Boolean
+19. Static keyword in the class, definition outside the class.
+21. 3, 3, 1, 0, Thing::putThing(1);
+23. To tell the compiler about the class before it's declared.
+25. Because the parameter is created when the function runs.
+27. Outside
+29. before
+31. Forward declaration
+33. Copy constructor
+35. overloaded
+37. Aggregation
+39. Bird Bird::constructor=(const Bird &right)
+41. bool Yen::operator<(const Yen &right)
+43. Collection Collection::operator[](const Collection &sub)
+45. True
+47. False
+49. True
+51. True
+53. True
+55. False
+57. True
+59. copy constructor should have reference parameter
+61. & should be on right not Point
+63. operator float() shouldn't be void
